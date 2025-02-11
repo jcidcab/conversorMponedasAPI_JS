@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./assets/css/normalize.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="subcontainer">
+        <h1>Conversor de monedas</h1>
+
+        <input type="Number" id="inputPesos" />
+        <div>
+          <select name="" id="select_coin">
+            <option value="" disabled selected>
+              -- Selecciona una moneda --
+            </option>
+          </select>
+        </div>
+        <button id="search" class="btn">Buscar</button>
+        <div id="answerDivisa"></div>
+      </div>
+
+    </div>
+      <div class="grafico">
+        <canvas id="chart"></canvas>
+      </div>
+    
+
+    <script src="/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+  </body>
+</html>
